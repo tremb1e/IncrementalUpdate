@@ -1,0 +1,12 @@
+<!-- res/xml/file_paths.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 定义一个通用路径来共享应用的外部存储文件 -->
+    <external-path
+        android:name="external_files"
+        android:path="." />
+    <!-- 如果您想指定特定的目录，可以这样做 -->
+    <files-path
+        android:name="internal_files"
+        android:path="files/" />
+</paths>
